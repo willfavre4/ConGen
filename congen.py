@@ -34,7 +34,7 @@ def generate():
             print 'Categories are phonological classes defined by enumeration. For example, you might define consonants like this: consonants=bcdfg. This means that every time a consonant is called ConGen will randomely select either b,c,d,f or g. The key here is that order determines probability. The default dropoff is 30%, which means that ConGen runs through each letter and has a 30 percent chance of stopping at every letter.'
         else:
             categories1 = categories.split()
-            categories2 = categories
+            categories2 = categories.something
 
     passval = 0
     while passval == 0:
