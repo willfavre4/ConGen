@@ -12,3 +12,9 @@ def uinput():
     categories = input('What would you like your first phonology classes to be? Type help if you don''t know what to do.')
     if categories == 'help'.lower():
         print 'example: CVS = Consonants, vowels, and sonorant\n example 2: CV = Consonant, vowel)'
+        pass
+    else:
+        categories = categories.split()
+        return categories
+
+uinput()
